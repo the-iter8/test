@@ -18,7 +18,7 @@ const postToInsta = async () => {
   await ig.account.login(process.env.IG_USERNAME, process.env.IG_PASSWORD);
 
   const imageBuffer = await get({
-    url: "https://images.pexels.com/photos/1055613/pexels-photo-1055613.jpeg",
+    url: "https://picsum.photos/200/200",
     encoding: null,
   });
 
