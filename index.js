@@ -18,7 +18,7 @@ const postToInsta = async () => {
   await ig.account.login(process.env.IG_USERNAME, process.env.IG_PASSWORD);
 
   const imageBuffer = await get({
-    url: "https://instagram.fdel3-1.fna.fbcdn.net/v/t51.2885-19/338621067_5779535688822384_8563260324206482349_n.jpg?stp=dst-jpg_s320x320&_nc_ht=instagram.fdel3-1.fna.fbcdn.net&_nc_cat=100&_nc_ohc=sVC5OHpd73AAX8z677O&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfBKPKpQ7wPm1QnnUDLEPMPhjjH8AZyVYPhBRNU3IReBIw&oe=651094A1&_nc_sid=8b3546",
+    url: "https://images.pexels.com/photos/1055613/pexels-photo-1055613.jpeg",
     encoding: null,
   });
 
