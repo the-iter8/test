@@ -9,10 +9,10 @@ const port = process.env.PORT || 3000;
 app.listen(port, () => {
   console.log(`Listening on port ${port}`);
 });
-
-const { IgApiClient } = require("instagram-private-api");
+// const { IgApiClient } = require("instagram-private-api");
 
 const postToInsta = async () => {
+  const { IgApiClient } = await import("instagram-private-api");
   const newP = new Promise(async (res, rej) => {
     try {
       const wordResponse = await fetch("https://random-word-api.herokuapp.com/word?number=1");
