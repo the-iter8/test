@@ -11,8 +11,6 @@ app.listen(port, () => {
 });
 
 const { IgApiClient } = require("instagram-private-api");
-const { get } = require("request-promise");
-const CronJob = require("cron").CronJob;
 
 const postToInsta = async () => {
   const newP = new Promise(async (res, rej) => {
