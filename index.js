@@ -76,7 +76,7 @@ const postToInsta = async () => {
 
   await ig.publish.photo({
     file: imageBuffer,
-    caption: "Some image?",
+    caption: "Follow our page for more!",
   });
 };
 
